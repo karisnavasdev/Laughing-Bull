@@ -1,5 +1,5 @@
 (function () {
-  const CA = (document.body.dataset.ca || "0xcomingsoon").trim();
+  const CA = (document.body.dataset.ca || "0xee2580f1b3dd0d3dfa8279c1173adcbddeeb7777").trim();
   const XURL = (document.body.dataset.x || "https://x.com/LaughingBull_X").trim();
   const isAddress = /^0x[a-fA-F0-9]{40}$/.test(CA);
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
