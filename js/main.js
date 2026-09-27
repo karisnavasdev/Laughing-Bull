@@ -1,6 +1,6 @@
 (function () {
   const CA = (document.body.dataset.ca || "0xcomingsoon").trim();
-  const XURL = (document.body.dataset.x || "https://x.com").trim();
+  const XURL = (document.body.dataset.x || "https://x.com/LaughingBull_X").trim();
   const isAddress = /^0x[a-fA-F0-9]{40}$/.test(CA);
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
